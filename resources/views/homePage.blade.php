@@ -7,6 +7,10 @@
 
         <title>DjambeNom</title>
 
+        <!-- TailwindScript -->
+        <script src="https://cdn.tailwindcss.com"></script>
+        <!-- TailwindScript -->
+        
         <!-- Fonts -->
         <link href="https://fonts.bunny.net/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
         <!-- Fonts -->
