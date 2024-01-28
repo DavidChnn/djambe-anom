@@ -17,7 +17,7 @@
     </head>
     <body class="">
         <!-- Navbar -->
-        <Navbar class="flex justify-between p-2 md:px-10 md:py-4 lg:px-20 lg:py-4 xl:px-56 xl:py-6 shadow-xl bg-cover bg-[asset('images/bgawan.jpg')] opacity-85 border-b-4 border-[#584d33]">
+        <Navbar class="flex justify-between p-2 md:px-10 md:py-4 lg:px-20 lg:py-4 xl:px-56 xl:py-6 shadow-xl bg-cover bg-[url('images/bgawan.jpg')] opacity-85 border-b-4 border-[#584d33]">
             <div>
                 <!-- LOGO DJAMBENOM -->
                 <a href="#">
@@ -154,7 +154,7 @@
                 </div>
             </div>
         </div>
-        <div class="bg-cover bg-[asset('images/bg-grass.jpeg')] justify-center py-10">
+        <div class="bg-cover bg-[url('images/bg-grass.jpeg')] justify-center py-10">
             <div id="gallery">
                 <h1 class="md:text-4xl lg:text-6xl font-bold fonts-capuche text-white text-center">
                     GALLERY
