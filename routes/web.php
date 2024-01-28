@@ -16,3 +16,8 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('homePage');
 });
+
+Route::get('/images/{image}', function ($image) {
+    // Return the image file on the public folder
+    return response()->file(public_path('images/' . $image));
+});
