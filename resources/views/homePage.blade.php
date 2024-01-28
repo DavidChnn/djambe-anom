@@ -10,7 +10,7 @@
         <!-- TailwindScript -->
         <script src="https://cdn.tailwindcss.com"></script>
         <!-- TailwindScript -->
-        
+
         <!-- Fonts -->
         <link href="https://fonts.bunny.net/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
         <!-- Fonts -->
@@ -21,9 +21,9 @@
             <div>
                 <!-- LOGO DJAMBENOM -->
                 <a href="#">
-                    <img src="{{ url('images/logodjambe1.png') }}" alt="Deskripsi Gambar" class="w-56">
+                    <img src="{{ asset('images/logodjambe1.png') }}" alt="Deskripsi Gambar" class="w-56">
                 </a>
-                
+
             </div>
             <div class="flex justify-center items-center fonts-mono text-[8px] sm:text-xl">
                 <a href="#home" class="px-4 hover:text-gray-700 hover:underline">HOME</a>
@@ -37,7 +37,7 @@
         <!-- Content -->
         <div class="bg-cover bg-[url('images/bg-tree.jpg')] text-white grid grid-cols-2 justify-center py-10 sm:py-10 lg:py-40 sm:px-20 gap-4">
             <div class="sm:mx-10 lg:mx-20 flex justify-center items-center sm:hidden">
-                <img src="{{ url('images/djambetangan.jpg') }}" alt="Deskripsi Gambar" class="w-28 sm:w-86 md:w-80 lg:w-fit xl:w-fit 2xl:w-[350px] rounded-xl">
+                <img src="{{ asset('images/djambetangan.jpg') }}" alt="Deskripsi Gambar" class="w-28 sm:w-86 md:w-80 lg:w-fit xl:w-fit 2xl:w-[350px] rounded-xl">
             </div>
              <!-- component -->
             <!-- This is an example component -->
@@ -49,15 +49,15 @@
                         <!-- Item 1 -->
                         <div class="hidden duration-700 ease-in-out" data-carousel-item>
                             <span class="absolute top-1/2 left-1/2 text-2xl font-semibold text-white -translate-x-1/2 -translate-y-1/2 sm:text-3xl dark:text-gray-800">First Slide</span>
-                            <img src="{{ url('images/djambeawan.jpg') }}" class="block absolute top-1/2 left-1/2 w-full -translate-x-1/2 -translate-y-1/2" alt="...">
+                            <img src="{{ asset('images/djambeawan.jpg') }}" class="block absolute top-1/2 left-1/2 w-full -translate-x-1/2 -translate-y-1/2" alt="...">
                         </div>
                         <!-- Item 2 -->
                         <div class="hidden duration-700 ease-in-out" data-carousel-item>
-                            <img src="{{ url('images/djambetangan.jpg') }}" class="block absolute top-1/2 left-1/2 w-full -translate-x-1/2 -translate-y-1/2" alt="...">
+                            <img src="{{ asset('images/djambetangan.jpg') }}" class="block absolute top-1/2 left-1/2 w-full -translate-x-1/2 -translate-y-1/2" alt="...">
                         </div>
                         <!-- Item 3 -->
                         <div class="hidden duration-700 ease-in-out" data-carousel-item>
-                            <img src="{{ url('images/djambeasap1.jpg') }}" class="block absolute top-1/2 left-1/2 w-full -translate-x-1/2 -translate-y-1/2" alt="...">
+                            <img src="{{ asset('images/djambeasap1.jpg') }}" class="block absolute top-1/2 left-1/2 w-full -translate-x-1/2 -translate-y-1/2" alt="...">
                         </div>
                     </div>
                     <!-- Slider indicators -->
@@ -91,7 +91,7 @@
                     </p>
                     <a href="https://wa.me/6282229749706" class="flex xl:my-8 sm:my-4 items-center" target="_blank">
                         <button class="flex bg-green-900 hover:bg-green-300 py-2 pr-4 rounded-xl">
-                            <img src="{{ url('images/whatsapp.png') }}" alt="logo WhatsApp" class="sm:w-10 w-4 mx-4">
+                            <img src="{{ asset('images/whatsapp.png') }}" alt="logo WhatsApp" class="sm:w-10 w-4 mx-4">
                             <p class="text-lime-300 sm:text-xl lg:text-2xl xl:text-3xl text-xs text-center fonts-capuche font-bold">WhatsApp</p>
                         </button>
                     </a>
@@ -99,7 +99,7 @@
             </div>
         </div>
         <!-- <div class="">
-            <img src="{{ url('images/vector.png')}}" alt="" class="absolute w-full bottom-0 hidden sm:block sm:-translate-y- md:-translate-y-[410px] lg:translate-y-14 xl:translate-y-16 2xl:-translate-y-36">
+            <img src="{{ asset('images/vector.png')}}" alt="" class="absolute w-full bottom-0 hidden sm:block sm:-translate-y- md:-translate-y-[410px] lg:translate-y-14 xl:translate-y-16 2xl:-translate-y-36">
         </div> -->
         <div class="md:py-10 lg:py-20 bg-gray-300">
             <div class="text-center">
@@ -110,7 +110,7 @@
             <div class="relative grid sm:grid-cols-2 lg:grid-cols-4 px-20 py-10 gap-10">
                 <div class="bg-white h-50 py-2 px-4 shadow-xl rounded-xl">
                     <div class="flex justify-center items-center">
-                        <img src="{{ url('images/strong.png') }}" alt="Deskripsi Gambar" class="w-20 md:w-32 lg:w-40">
+                        <img src="{{ asset('images/strong.png') }}" alt="Deskripsi Gambar" class="w-20 md:w-32 lg:w-40">
                     </div>
                     <h1 class="text-md sm:text-lg xl:text-xl text-center font-bold">
                         Energi dan Stamina
@@ -121,7 +121,7 @@
                 </div>
                 <div class="bg-white h-50 py-2 px-4 shadow-xl rounded-xl">
                     <div class="flex justify-center items-center">
-                        <img src="{{ url('images/foster-family.png') }}" alt="Deskripsi Gambar" class="w-20 md:w-32 lg:w-40">
+                        <img src="{{ asset('images/foster-family.png') }}" alt="Deskripsi Gambar" class="w-20 md:w-32 lg:w-40">
                     </div>
                     <h1 class="text-md sm:text-lg xl:text-xl text-center font-bold">
                         Kesehatan Reproduksi
@@ -132,7 +132,7 @@
                 </div>
                 <div class="bg-white h-50 py-2 px-4 shadow-xl rounded-xl">
                     <div class="flex justify-center items-center">
-                        <img src="{{ url('images/milk-tooth.png') }}" alt="Deskripsi Gambar" class="w-20 md:w-32 lg:w-40">
+                        <img src="{{ asset('images/milk-tooth.png') }}" alt="Deskripsi Gambar" class="w-20 md:w-32 lg:w-40">
                     </div>
                     <h1 class="text-md sm:text-lg xl:text-xl text-center font-bold">
                         Pemutih Gigi
@@ -143,7 +143,7 @@
                 </div>
                 <div class="bg-white h-50 py-2 px-4 shadow-xl rounded-xl">
                     <div class="flex justify-center items-center">
-                        <img src="{{ url('images/fight.png') }}" alt="Deskripsi Gambar" class="w-20 md:w-32 lg:w-40">
+                        <img src="{{ asset('images/fight.png') }}" alt="Deskripsi Gambar" class="w-20 md:w-32 lg:w-40">
                     </div>
                     <h1 class="text-md sm:text-lg xl:text-xl text-center font-bold">
                         Melawan Kanker
@@ -166,19 +166,19 @@
                         <img
                             alt="gallery"
                             class="block h-full w-full rounded-lg object-cover object-center"
-                            src="{{ url('images/djambe.jpg') }}" />
+                            src="{{ asset('images/djambe.jpg') }}" />
                         </div>
                         <div class="w-1/2 p-1 md:p-2">
                         <img
                             alt="gallery"
                             class="block h-full w-full rounded-lg object-cover object-center"
-                            src="{{ url('images/djambeawan.jpg') }}" />
+                            src="{{ asset('images/djambeawan.jpg') }}" />
                         </div>
                         <div class="w-full p-1 md:p-2">
                         <img
                             alt="gallery"
                             class="block h-full w-full rounded-lg object-cover object-center"
-                            src="{{ url('images/djambetangan.jpg') }}" />
+                            src="{{ asset('images/djambetangan.jpg') }}" />
                         </div>
                     </div>
                     <div class="flex w-1/2 flex-wrap">
@@ -186,19 +186,19 @@
                         <img
                             alt="gallery"
                             class="block h-full w-full rounded-lg object-cover object-center"
-                            src="{{ url('images/djambeasap1.jpg') }}" />
+                            src="{{ asset('images/djambeasap1.jpg') }}" />
                         </div>
                         <div class="w-1/2 p-1 md:p-2">
                         <img
                             alt="gallery"
                             class="block h-full w-full rounded-lg object-cover object-center"
-                            src="{{ url('images/djambepagar.jpg') }}" />
+                            src="{{ asset('images/djambepagar.jpg') }}" />
                         </div>
                         <div class="w-1/2 p-1 md:p-2">
                         <img
                             alt="gallery"
                             class="block h-full w-full rounded-lg object-cover object-center"
-                            src="{{ url('images/djambeasap2.jpg') }}" />
+                            src="{{ asset('images/djambeasap2.jpg') }}" />
                         </div>
                     </div>
                     </div>
@@ -213,7 +213,7 @@
                 <div class="relative grid sm:grid-cols-2 lg:grid-cols-4 px-20 py-10 gap-10">
                     <div class="bg-white h-fit p-4 shadow-xl rounded-xl">
                         <div class="flex justify-center items-center">
-                            <img src="{{ url('images/djambe.jpg') }}" alt="Deskripsi Gambar" class="w-20 md:w-32 lg:w-40">
+                            <img src="{{ asset('images/djambe.jpg') }}" alt="Deskripsi Gambar" class="w-20 md:w-32 lg:w-40">
                         </div>
                         <h1 class="text-md sm:text-lg text-center font-bold">
                             Menambah Kenjantanan
@@ -224,7 +224,7 @@
                     </div>
                     <div class="bg-white h-fit p-4 shadow-xl rounded-xl">
                         <div class="flex justify-center items-center">
-                            <img src="{{ url('images/djambe.jpg') }}" alt="Deskripsi Gambar" class="w-20 md:w-32 lg:w-40">
+                            <img src="{{ asset('images/djambe.jpg') }}" alt="Deskripsi Gambar" class="w-20 md:w-32 lg:w-40">
                         </div>
                         <h1 class="text-md sm:text-lg text-center font-bold">
                             Menambah Kenjantanan
@@ -235,7 +235,7 @@
                     </div>
                     <div class="bg-white h-fit p-4 shadow-xl rounded-xl">
                         <div class="flex justify-center items-center">
-                            <img src="{{ url('images/djambe.jpg') }}" alt="Deskripsi Gambar" class="w-20 md:w-32 lg:w-40">
+                            <img src="{{ asset('images/djambe.jpg') }}" alt="Deskripsi Gambar" class="w-20 md:w-32 lg:w-40">
                         </div>
                         <h1 class="text-md sm:text-lg text-center font-bold">
                             Menambah Kenjantanan
@@ -246,7 +246,7 @@
                     </div>
                     <div class="bg-white h-fit p-4 shadow-xl rounded-xl">
                         <div class="flex justify-center items-center">
-                            <img src="{{ url('images/djambe.jpg') }}" alt="Deskripsi Gambar" class="w-20 md:w-32 lg:w-40">
+                            <img src="{{ asset('images/djambe.jpg') }}" alt="Deskripsi Gambar" class="w-20 md:w-32 lg:w-40">
                         </div>
                         <h1 class="text-md sm:text-lg text-center font-bold">
                             Menambah Kenjantanan
