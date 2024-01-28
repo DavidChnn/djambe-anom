@@ -252,7 +252,6 @@
                     </div>
                 </div>
             </div>
-
             <footer id="kontakkami" class="bg-green-900 py-4 text-white px-4 sm:px-20">
                 <div class="grid xl:grid-cols-4 gap-5">
                     <div class="mx-auto sm:col-span-2">
