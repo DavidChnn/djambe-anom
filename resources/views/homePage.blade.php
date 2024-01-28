@@ -10,7 +10,7 @@
         <!-- TailwindScript -->
         <script src="https://cdn.tailwindcss.com"></script>
         <!-- TailwindScript -->
-        
+
         <!-- Fonts -->
         <link href="https://fonts.bunny.net/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
         <!-- Fonts -->
@@ -23,7 +23,7 @@
                 <a href="#">
                     <img src="{{ asset('images/logodjambe1.png') }}" alt="Deskripsi Gambar" class="w-56">
                 </a>
-                
+
             </div>
             <div class="flex justify-center items-center fonts-mono text-[8px] sm:text-xl">
                 <a href="#home" class="px-4 hover:text-gray-700 hover:underline">HOME</a>
