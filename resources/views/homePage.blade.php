@@ -210,51 +210,48 @@
                 <h1 class="md:text-4xl lg:text-6xl font-bold fonts-capuche text-center">
                     REVIEW
                 </h1>
-                <div class="relative grid sm:grid-cols-2 lg:grid-cols-4 px-20 py-10 gap-10">
-                    <div class="bg-white h-fit p-4 shadow-xl rounded-xl">
-                        <div class="flex justify-center items-center">
-                            <img src="{{ asset('images/djambe.jpg') }}" alt="Deskripsi Gambar" class="w-20 md:w-32 lg:w-40">
-                        </div>
-                        <h1 class="text-md sm:text-lg text-center font-bold">
-                            Menambah Kenjantanan
+                <div class="relative grid sm:grid-cols-2 xl:grid-cols-5 px-20 py-10 gap-10">
+                    <div class="bg-white p-4 shadow-xl rounded-xl">
+                        <h1 class="text-md sm:text-lg text-center font-bold py-4">
+                            Ngurah Arya
                         </h1>
                         <p class="text-xs sm:text-xs lg:text-md">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                            "The inclusion of ginger and turmeric adds a distinct and interesting twist to the traditional betel nut juice. The blend of these spices contributes to a complex flavor profile that stands out."
                         </p>
                     </div>
-                    <div class="bg-white h-fit p-4 shadow-xl rounded-xl">
-                        <div class="flex justify-center items-center">
-                            <img src="{{ asset('images/djambe.jpg') }}" alt="Deskripsi Gambar" class="w-20 md:w-32 lg:w-40">
-                        </div>
-                        <h1 class="text-md sm:text-lg text-center font-bold">
-                            Menambah Kenjantanan
+                    <div class="bg-white p-4 shadow-xl rounded-xl">
+                        <h1 class="text-md sm:text-lg text-center font-bold py-4">
+                            Juwita Bahar
                         </h1>
                         <p class="text-xs sm:text-xs lg:text-md">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                            "Djambe Anom iki apik tenan! Rasa pinang karo jahe kunir padha nemtok, karo rempah-rempah kang laen ojo lali. Aromane apik, segar ben uwis. Nggo mbeneri ati, iki minuman sing ora duwe tanding. Mantep tenan!"
                         </p>
                     </div>
-                    <div class="bg-white h-fit p-4 shadow-xl rounded-xl">
-                        <div class="flex justify-center items-center">
-                            <img src="{{ asset('images/djambe.jpg') }}" alt="Deskripsi Gambar" class="w-20 md:w-32 lg:w-40">
-                        </div>
-                        <h1 class="text-md sm:text-lg text-center font-bold">
-                            Menambah Kenjantanan
+                    <div class="bg-white p-4 shadow-xl rounded-xl">
+                        <h1 class="text-md sm:text-lg text-center font-bold py-4">
+                            David Wijaya
                         </h1>
                         <p class="text-xs sm:text-xs lg:text-md">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                            "Djambe Anom is truly delightful! The combination of betel nut and turmeric with other spices is perfect. The aroma is pleasant and refreshing. For soothing the heart, this drink has no competition. Absolutely fantastic!"
                         </p>
                     </div>
-                    <div class="bg-white h-fit p-4 shadow-xl rounded-xl">
-                        <div class="flex justify-center items-center">
-                            <img src="{{ asset('images/djambe.jpg') }}" alt="Deskripsi Gambar" class="w-20 md:w-32 lg:w-40">
-                        </div>
-                        <h1 class="text-md sm:text-lg text-center font-bold">
-                            Menambah Kenjantanan
+                    <div class="bg-white p-4 shadow-xl rounded-xl">
+                        <h1 class="text-md sm:text-lg text-center font-bold py-4">
+                            Bima Affarel
                         </h1>
                         <p class="text-xs sm:text-xs lg:text-md">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                            "Djambe Anom ini sungguh menggembirakan! Kombinasi buah pinang dan jahe kunir sangat luar biasa, dengan rempah-rempah yang kuat dan lezat. Aroma yang menenangkan terasa kuat. Jika Anda mencari sesuatu yang bisa mengangkat semangat, ini adalah minuman yang sempurna untuk dinikmati."
                         </p>
                     </div>
+                    <div class="bg-white p-4 shadow-xl rounded-xl">
+                        <h1 class="text-md sm:text-lg text-center font-bold py-4">
+                            Ivan Santika
+                        </h1>
+                        <p class="text-xs sm:text-xs lg:text-md">
+                            "Djambe Anom iki ora ketemu sing nggawe adem karo rasa sing apik. Pinang karo jahe kunir duwe cita rasa kang apik, karo rempah-rempah kang manteb. Minuman iki ora melulu adem, tapi ogé ngarepne kesehatan. Bener-bener apik!"
+                        </p>
+                    </div>
+                    
                 </div>
             </div>
             <footer id="kontakkami" class="bg-green-900 py-4 text-white px-4 sm:px-20">
