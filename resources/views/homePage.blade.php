@@ -221,7 +221,7 @@
                     </div>
                     <div class="bg-white p-4 shadow-xl rounded-xl">
                         <h1 class="text-md sm:text-lg text-center font-bold py-4">
-                            Juwita Bahar
+                            Juju Baharudin
                         </h1>
                         <p class="text-xs sm:text-xs lg:text-md">
                             "Djambe Anom iki apik tenan! Rasa pinang karo jahe kunir padha nemtok, karo rempah-rempah kang laen ojo lali. Aromane apik, segar ben uwis. Nggo mbeneri ati, iki minuman sing ora duwe tanding. Mantep tenan!"
