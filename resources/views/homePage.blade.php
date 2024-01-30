@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         @vite('resources/css/app.css')
 
-        <title>DjambeNom</title>
+        <title>DjambeAnom</title>
 
         <!-- TailwindScript -->
         <script src="https://cdn.tailwindcss.com"></script>
@@ -35,7 +35,7 @@
         </Navbar>
         <!-- Navbar -->
         <!-- Content -->
-        <div class="bg-cover bg-[url('images/bg-tree.jpg')] text-white grid grid-cols-2 justify-center py-10 sm:py-10 lg:py-40 sm:px-20 gap-4">
+        <div class="bg-cover bg-[url('images/bg-tree.jpg')] text-white grid grid-cols-2 justify-center items-center py-10 sm:py-10 lg:py-40 sm:px-20 gap-4">
             <div class="sm:mx-10 lg:mx-20 flex justify-center items-center sm:hidden">
                 <img src="{{ asset('images/djambetangan.jpg') }}" alt="Deskripsi Gambar" class="w-28 sm:w-86 md:w-80 lg:w-fit xl:w-fit 2xl:w-[350px] rounded-xl">
             </div>
@@ -87,9 +87,9 @@
                         Deskripsi
                     </h1>
                     <p class="text-[8px] sm:text-xs md:text-md lg:text-xl">
-                        "Selamat datang, Sobat Sehat! Apakah Anda sudah mengetahui tentang Jus Djambe Anom? Ini adalah minuman tradisional yang luar biasa, berbeda dari sinom, temulawak, beras kencur dan lainnya. Jus Djambe Anom, yang terbuat dari pinang muda, adalah kreasi unik dari Djambewangi yang telah menarik perhatian semua kalangan, mulai dari anak-anak hingga orang dewasa. Meski pinang muda memiliki rasa pahit dan sepat serta kaya akan getah, namun dengan olahan yang tepat, kami berhasil mengubahnya menjadi minuman segar yang siap Anda nikmati. Jadi, tunggu apa lagi? Cobalah Jus Djambe Anom dan rasakan keunikan rasanya!"
+                        “Selamat datang, Sobat Sehat! Kenalkan, Jus Djambe Anom, kreasi unik dari Djambewangi yang terbuat dari pinang muda. Dengan olahan yang tepat, rasa pahit dan sepat pinang berubah menjadi minuman segar yang siap Anda nikmati. Djambe Anom ini adalah sebuah produk keluaran dari buah pinang, buah yang notabene hanya digunakan untuk inang atau memperkuat gigi para orang tua zaman dahulu. Namun, Djambewangi menemukan inovasi baru dengan cara mengubahnya menjadi minuman yang bisa dinikmati para kalangan muda. Jadi, tunggu apa lagi? Cobalah Jus Djambe Anom dan rasakan keunikan rasanya! Dengan rasa yang unik dan manfaat yang luar biasa, Djambe Anom layak menjadi pilihan minuman Anda. Nikmati sensasi rasa yang berbeda dan sehat bersama Djambe Anom. Pesan sekarang juga dan rasakan manfaatnya!”
                     </p>
-                    <a href="https://wa.me/6282229749706" class="flex xl:my-8 sm:my-4 items-center" target="_blank">
+                    <a href="https://wa.me/6282229749706" class="flex xl:my-8 my-2 sm:my-4 items-center" target="_blank">
                         <button class="flex bg-green-900 hover:bg-green-300 py-2 pr-4 rounded-xl">
                             <img src="{{ asset('images/whatsapp.png') }}" alt="logo WhatsApp" class="sm:w-10 w-4 mx-4">
                             <p class="text-lime-300 sm:text-xl lg:text-2xl xl:text-3xl text-xs text-center fonts-capuche font-bold">WhatsApp</p>
@@ -98,9 +98,6 @@
                 </div>
             </div>
         </div>
-        <!-- <div class="">
-            <img src="{{ asset('images/vector.png')}}" alt="" class="absolute w-full bottom-0 hidden sm:block sm:-translate-y- md:-translate-y-[410px] lg:translate-y-14 xl:translate-y-16 2xl:-translate-y-36">
-        </div> -->
         <div class="md:py-10 lg:py-20 bg-gray-300">
             <div class="text-center">
                 <h1 id="manfaat" class="md:text-4xl lg:text-6xl font-bold fonts-capuche">
@@ -135,10 +132,10 @@
                         <img src="{{ asset('images/milk-tooth.png') }}" alt="Deskripsi Gambar" class="w-20 md:w-32 lg:w-40">
                     </div>
                     <h1 class="text-md sm:text-lg xl:text-xl text-center font-bold">
-                        Pemutih Gigi
+                        Kekuatan Gigi
                     </h1>
                     <p class="text-xs sm:text-xs lg:text-md xl:text-lg">
-                        Dengan kandungan alami di dalamnya, Jus Djambe Anom dapat membantu memutihkan gigi Anda.
+                        Dengan kandungan alami di dalamnya, Jus Djambe Anom dapat membantu menguatkan gigi Anda.
                     </p>
                 </div>
                 <div class="bg-white h-50 py-2 px-4 shadow-xl rounded-xl">
@@ -251,8 +248,54 @@
                             "Djambe Anom iki ora ketemu sing nggawe adem karo rasa sing apik. Pinang karo jahe kunir duwe cita rasa kang apik, karo rempah-rempah kang manteb. Minuman iki ora melulu adem, tapi ogé ngarepne kesehatan. Bener-bener apik!"
                         </p>
                     </div>
-                    
                 </div>
+                <div class="grid grid-cols-2 lg:grid-cols-4 gap-4 px-20">
+                    <div class="grid gap-4">
+                        <div>
+                            <img class="h-auto max-w-full rounded-lg" src="{{ asset('images/IMG-20240130-WA0066.jpg')}}" alt="">
+                        </div>
+                        <div>
+                            <img class="h-auto max-w-full rounded-lg" src="{{ asset('images/IMG-20240130-WA0079.jpg')}}" alt="">
+                        </div>
+                        <div>
+                            <img class="h-auto max-w-full rounded-lg" src="{{ asset('images/IMG-20240130-WA0069.jpg')}}" alt="">
+                        </div>
+                    </div>
+                    <div class="grid gap-4">
+                        <div>
+                            <img class="h-auto max-w-full rounded-lg" src="{{ asset('images/IMG-20240130-WA0073.jpg')}}" alt="">
+                        </div>
+                        <div>
+                            <img class="h-auto max-w-full rounded-lg" src="{{ asset('images/IMG-20240130-WA0070.jpg')}}" alt="">
+                        </div>
+                        <div>
+                            <img class="h-auto max-w-full rounded-lg" src="{{ asset('images/IMG-20240130-WA0080.jpg')}}" alt="">
+                        </div>
+                    </div>
+                    <div class="grid gap-4">
+                        <div>
+                            <img class="h-auto max-w-full rounded-lg" src="images/IMG-20240130-WA0094.jpg" alt="">
+                        </div>
+                        <div>
+                            <img class="h-auto max-w-full rounded-lg" src="images/IMG-20240130-WA0074.jpg" alt="">
+                        </div>
+                        <div>
+                            <img class="h-auto max-w-full rounded-lg" src="images/IMG-20240130-WA0095.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="grid gap-4">
+                        <div>
+                            <img class="h-auto max-w-full rounded-lg" src="images/IMG-20240130-WA0082.jpg" alt="">
+                        </div>
+                        <div>
+                            <img class="h-auto max-w-full rounded-lg" src="images/IMG-20240130-WA0077.jpg" alt="">
+                        </div>
+                        <div>
+                            <img class="h-auto max-w-full rounded-lg" src="images/IMG-20240130-WA0071.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+
             </div>
             <footer id="kontakkami" class="bg-green-900 py-4 text-white px-4 sm:px-20">
                 <div class="grid xl:grid-cols-4 gap-5">
@@ -274,6 +317,9 @@
                         </div>
                         <div class="py-4">
                             <a class="hover:text-gray-400 hover:underline text-center font-bold" target="_blank" href="https://www.tiktok.com/@djambewangi_grup?_t=8jKMTIBbr6n&_r=1">Tiktok : djambewangi_grup</a>
+                        </div>
+                        <div class="py-4">
+                            <a class="hover:text-gray-400 hover:underline text-center font-bold" target="_blank" href="https://x.com/eenkdjambe518">Twitter: Djambe Anom_Osing</a>
                         </div>
                     </div>
                     <div class="my-20">
